@@ -1,257 +1,273 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" type="text/css" href="./reset-fonts-grids.css" media="all" /> 
-	<link rel="stylesheet" type="text/css" href="index.css" media="all" />
-    <link rel="icon" href="./icon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-	<title>Enzo Smith | Community Executive </title>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="title" content="Enzo Smith" />
-	<meta name="keywords" content="" />
-	<meta
-      name="description"
-      content="ENZO SMITH - COMMUNITY EXECUTIVE"
-    />
-
-    <!-- Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://s0crates-eth.github.io/" />
-    <meta property="og:title" content="ENZO SMITH - COMMUNITY EXECUTIVE" />
-    <meta
-      property="og:description"
-      content="ENZO SMITH - COMMUNITY EXECUTIVE"
-    />
-    <meta
-      property="og:image"
-      content="https://github.com/s0crates-eth/s0crates-eth.github.io/blob/main/icon.png"
-    />
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://s0crates-eth.github.io/" />
-    <meta property="twitter:title" content="ENZO SMITH - COMMUNITY EXECUTIVE" />
-    <meta
-      property="twitter:description"
-      content="ENZO SMITH - COMMUNITY EXECUTIVE"
-    />
-    <meta
-      property="twitter:image"
-      content="./icon.png"
-    />
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/favicon-portfolio.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="js/nav.js"></script>
 </head>
+
 <body>
+    <!-- Navbar Start -->
+    <nav id="navbar" class="black navbar navbar-expand-lg fixed-top">
+        <!-- Brand -->
+        <a id="nav-logo" class="navbar-brand" href="index.html">Enzo Smith</a>
 
-<div id="doc2" class="yui-t7">
-	<div id="inner">
+        <!-- Button collapsable -->
+        <button class="navbar-toggler" id="nav-btn" type="button" data-toggle="collapse"
+            data-target="#collapsibleNavbar">
+            <span class="navbar-btn"><i class="fa fa-bars" aria-hidden="true"></i></span>
+        </button>
+        <!-- Links -->
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul id="nav-ul" class="navbar-nav">
+                <li class="nav-item navigation-list">
+                    <a class="nav-link nav-custom-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item navigation-list">
+                    <a class="nav-link nav-custom-link" href="#about-me">About</a>
+                </li>
+                <li class="nav-item navigation-list">
+                    <a class="nav-link nav-custom-link" href="#my-portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item navigation-list">
+                    <a class="nav-link nav-custom-link" href="#section-contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar End -->
 
-		<div id="hd">
-			<div class="yui-gc">
-				<div class="yui-u first">
-				<h1>Enzo Smith</h1>
-				<h2>Community Executive</h2>
-				</div>
-
-				<div class="yui-u">
-					<div class="contact-info">
-						<h3><a id="pdf" href="./Enzo Smith _ Community Executive.pdf" download="Enzo Smith _ Community Executive.pdf">Download</a></h3>
-						<h3><a id="pdf" href="https://www.t.me/web3devv">Telegram</a></h3>
-						<h3><a id="pdf" href="https://www.linkedin.com/in/enzo-smith" >LinkedIn</a></h3>
-					</div>
-				</div>
-			</div><!--// .yui-gc -->
-		</div><!--// hd -->
-
-		<div id="bd">
-			<div id="yui-main">
-					<div class="yui-b">
-
-					<div class="yui-gf">
-					<div class="yui-u first">
-					<h2>Profile</h2>
-					</div>
-					<div class="yui-u">
-					<p class="enlarge">
-						As a community organizer and manager with 10+ years of experience, 
-						I have cultivated strong relationships within communities around the world. 
-						With expertise in community building and engagement, 
-						I craft engaging content and resources to help community members overcome challenges. 
-						Through community management, business development, and strategic partnerships, 
-						I leverage my technical skills and passion for education to enable community growth. 
-						I am now seeking a role where I can continue championing communities 
-						and shaping the future of technology.
-					</p>
-					</div>
-					</div><!--// .yui-gf -->
-
-					<div class="yui-gf">
-						<div class="yui-u first">
-						<h2>Skills</h2>
-						</div>
-						<div class="yui-u">
-
-							<div class="talent">
-								<h2>Community Management</h2>
-								<p>
-									- Online community building</br>
-									- Content curation</br> 
-									- Engagement and moderation</br>
-									- Partnerships and business development</br>
-								</p>
-							</div>
-
-							<div class="talent">
-								<h2>Education</h2>
-								<p>
-									- Webinars and workshops</br>
-									- Tutorials and guides</br>
-									- Coaching and mentoring</br>
-									- Curriculum design</br>
-								</p>
-							</div>
-
-							<div class="talent">
-								<h2>Project Development</h2>
-								<p>
-									- Solidity and Blockchain</br>
-									- Bug testing and Audits</br>
-									- Kanban and task tracking</br>
-									- Timelines and OKRs</br>
-								</p>
-							</div>
-						</div>
-					</div><!--// .yui-gf -->
+    <main class="container-fluid main p-0">
+        <!-- SECTION NO 1: Header Image -->
+        <section class="container-fluid section-1">
+            <div class="row section-1-inner">
+                <div class="col section-1-inner-col">
+                    <div class="image-frame mx-auto my-5">
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
-					<div class="yui-gf">
-						<div class="yui-u first">
-							<h2>Education</h2>
-						</div>
-							<div class="yui-u">
-							<h2>Framingham State University, USA</h2>
-							<h3>Master's degree in Education, 2017</h3>
-							<br><br>
-						</div>
-						<div class="yui-u">
-							<h2>California State University Fullerton, USA</h2>
-							<h3>Bachelor's degree in Anthropology, 2013</h3>
-							<br><br>
-						</div>
-						<div class="yui-u">
-							<h2>Google Creative Campus, USA</h2>
-							<h3>Project Management Certification, 2022</h3>
-							<br><br>
-						</div>
-						<div class="yui-u">
-							<h2>Meta Facebook Career Programs, USA</h2>
-							<h3>JavaScript Development Certification, 2023</h3>
-						</div>
-					</div>
+        <!-- SECTION NO 2: Header title and text -->
+        <section id="about-me" class="container-fluid section-2">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="primary-heading">
+                        Development <span class="fw-bold primary-heading-bold">Portfolio</span>
+                    </div>
+                    <div class="paragraph mx-auto mt-2">
+                        Below is a collection of works created by Enzo Smith (@MetaMellow). If you have any questions please get in touch!
+                    </div>
+                    <a type="button" class="section-2-button fw-bold" href="#section-contact">Get in Touch</a>
+                </div>
+            </div>
+        </section>
 
-					<div class="yui-gf">
+        <!-- Divider -->
+        <div class="bold-line"></div>
 
-						<div class="yui-u first">
-							<h2>Experience</h2>
-						</div><!--// .yui-u -->
+        <!-- SECTION NO 5: Portfolio Pieces -->
+        <section id="my-portfolio" class="container-fluid section-5">
 
-						<div class="yui-u">
+            <div class="row mt-4 mt-md-5 work-gallery-row">
+                <div class="masonry">
+                    <!-- Work 1 -->
+                    <div class="grid">
+                        <img src="./images/work-1.jpg" class="img-fluid image-work">
+                        <div class="grid__body">
+                            <div class="relative">
+                                <a class="grid__link" target="_blank" href="#"></a>
+                                <p class="grid__author">Example of xxx</p>
+                            </div>
+                            <div class="mt-auto">
+                                <span class="grid__tag">Solidity</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Work 2 -->
+                    <div class="grid">
+                        <img src="./images/work-2.jpg" class="img-fluid image-work">
+                        <div class="grid__body">
+                            <div class="relative">
+                                <a class="grid__link" target="_blank" href="#"></a>
+                                <p class="grid__author">Example of xxx</p>
+                            </div>
+                            <div class="mt-auto">
+                                <span class="grid__tag">Solidity</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Work 3 -->
+                    <div class="grid">
+                        <img src="./images/work-3.jpg" class="img-fluid image-work">
+                        <div class="grid__body">
+                            <div class="relative">
+                                <a class="grid__link" target="_blank" href="#"></a>
+                                <p class="grid__author">Example of xxx</p>
+                            </div>
+                            <div class="mt-auto">
+                                <span class="grid__tag">Solidity</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Work 4 -->
+                    <div class="grid">
+                        <img src="./images/work-4.jpg" class="img-fluid image-work">
+                        <div class="grid__body">
+                            <div class="relative">
+                                <a class="grid__link" target="_blank" href="#"></a>
+                                <p class="grid__author">Example of xxx</p>
+                            </div>
+                            <div class="mt-auto">
+                                <span class="grid__tag">React</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Work 5 -->
+                    <div class="grid">
+                        <img src="./images/work-5.jpg" class="img-fluid image-work">
+                        <div class="grid__body">
+                            <div class="relative">
+                                <a class="grid__link" target="_blank" href="#"></a>
+                                <p class="grid__author">Example of xxx</p>
+                            </div>
+                            <div class="mt-auto">
+                                <span class="grid__tag">React</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Work 6 -->
+                    <div class="grid">
+                        <img src="./images/work-6.jpg" class="img-fluid image-work">
+                        <div class="grid__body">
+                            <div class="relative">
+                                <a class="grid__link" target="_blank" href="#"></a>
+                                <p class="grid__author">Example of xxx</p>
+                            </div>
+                            <div class="mt-auto">
+                                <span class="grid__tag">React</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </section>
 
-							<div class="job">
-								<h2>Bank of Nowhere</h2>
-								<h3>Project Lead Developer</h3>
-								<h4>Oct 2022 - Oct 2023</h4>
-								<h5>Online</h5>
-								<p>
-									- Lead community strategy and operations</br>
-									- Manage social media, forums and events</br>  
-									- Develop partnerships and sponsorships</br>
-									- Analyze metrics and feedback for improvements</br>
-									- Champion community member success and growth</br>
-								</p>
-							</div>
+        <!-- Divider -->
+        <div class="bold-line"></div>
 
-							<div class="job">
-								<h2>Cult DAO</h2>
-								<h3>Developer Advocate</h3>
-								<h4>Mar 2022 - Jul 2023</h4>
-								<h5>Online</h5>
-								<p>
-									- Curated forums, Telegram and Discord groups</br>
-									- Authored educational guides and resources</br>
-									- Hosted workshops and interactive discussions</br>
-									- Gathered feedback for product enhancements</br>
-									- Partnered with external communities and teams</br>
-								</p>
-							</div>
+        <!-- SECTION CONTACT: Social links -->
+        <section id="section-contact" class="container-fluid">
+            <br><br>
+            <div class="row card-row-1">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card text-center custom-card">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+                            <div class="card-circle">
+                                <div class="card-circle-icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                            </div>
+                            <div class="card-heading">Email</div>
+                            <div class="card-para">
+                                <a class="card-link" href="https://mail.google.com/mail/u/0/?fs=1&to=metamellow@duck.com&su=SUBJECT&body=BODY&tf=cm">
+                                    metamellow@duck.com
+                            </div></a>
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card text-center custom-card mt-5 mt-md-0">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+                            <div class="card-circle" >
+                                <div class="card-circle-icon" ><i class="fa fa-comments-o" aria-hidden="true"></i></div>
+                            </div>
+                            <div class="card-heading">Telegram</div>
+                            <div class="card-para">
+                                <a class="card-link" href="https://t.me/MetaMellow">
+                                    t.me/metamellow
+                            </div></a>
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card text-center custom-card mt-5 mt-lg-0">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+                            <div class="card-circle">
+                                <div class="card-circle-icon"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+                            </div>
+                            <div class="card-heading">LinkedIn</div>
+                            <div class="card-para">
+                                <a class="card-link" href="https://www.linkedin.com/in/enzo-smith">
+                                    linkedin.com/in/enzo-smith
+                            </div></a>
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card text-center custom-card mt-5 mt-lg-0">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+                            <div class="card-circle">
+                                <div class="card-circle-icon"><i class="fa fa-folder-open-o" aria-hidden="true"></i></div>
+                            </div>
+                            <div class="card-heading">Website</div>
+                            <div class="card-para">
+                                <a class="card-link" href="https://metamellow.github.io/">
+                                    metamellow.github.io
+                            </div></a>
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
 
-							<div class="job">
-								<h2>Aiza World</h2>
-								<h3>Brand Ambassador</h3>
-								<h4>Feb 2022 - Dec 2022</h4>
-								<h5>Online</h5>
-								<p>
-									- Curated social platforms and hosted online discussions<br>
-									- Authored technical and thought pieces on technologies<br>
-									- Pioneered the community experience as a founding member<br>
-									- Contributed direction in virtual and gaming design<br>
-									- Championed community growth initiatives to help scale
-								</p>
-							</div>
+        <!-- SECTION NO 8: Footer -->
+        <footer class="container-fluid footer">
 
-							<div class="job">
-								<h2>Western Sydney University</h2>
-								<h3>University Lecturer</h3>
-								<h4>Aug 2021 - Jul 2023</h4>
-								<h5>Vietnam</h5>
-								<p>
-									- Authored curriculum map to craft impactful learning journeys  <br>
-									- Led sync-ups and encouraged cross-functional partnerships  <br>
-									- Facilitated classroom sessions and mentored project-driven learning  <br>
-									- Conceptualized occasions to cultivate community and teamwork  <br>
-									- Championed continuous improvement through feedback-driven planning  <br>
-								</p>
-							</div>
-
-							<div class="job">
-								<h2>Shandong Technology and Business University</h2>
-								<h3>University Lecturer</h3>
-								<h4>Sep 2016 - Sep 2019</h4>
-								<h5>China</h5>
-								<p>
-									- Authored comprehensive course blueprints and lesson progressions  <br>
-									- Crafted engaging learning journeys through interactive platforms  <br>
-									- Pioneered the use of emerging edtech like Kahoot and Moodle in curriculum  <br>
-									- Seminars such as public speaking, intercultural fluency, and language<br>
-									- Data-driven evolution of pedagogy to enhance the student experience  <br>
-								</p>
-							</div>
-
-							<div class="job last">
-								<h2>DYB Choisun</h2>
-								<h3>Education Innovation Manager</h3>
-								<h4>Aug 2015 - Aug 2016</h4>
-								<h5>South Korea</h5>
-								<p>
-									- Crafted impactful learning experiences for students of all ages  <br>
-									- Student-centric class, flipped interaction, and collaborative discovery  <br>
-									- Facilitated sync-ups and lead timeline coordination to optimize flows  <br>
-									- Evolution through rigorous methodology testing and data analysis  <br>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
+            <div class="row section-footer-inner">
+                <div class="col">
+                    <div class="footer-copyright text-center mt-2">
+                        © All Rights Reserved. Enzo Smith.
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
 </body>
-</html>
 
+</html>
