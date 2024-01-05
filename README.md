@@ -3,6 +3,6 @@
 
 # 👻 Welcome to my Portfolio 👻
 
-[💬 PORTFOLIO](https://MetaMellow.github.io)
+[📂 PORTFOLIO](https://MetaMellow.github.io)
 
 ____________________________
