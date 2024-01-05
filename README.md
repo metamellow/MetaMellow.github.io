@@ -3,10 +3,6 @@
 
 # 👻 Welcome to my Portfolio 👻
 
-To find out more please visit:
-
-[💬 Telegram](https://t.me/MetaMellow)
-
-[🐦 Twitter](https://twitter.com/MetaMellow)
+[💬 PORTFOLIO](https://MetaMellow.github.io)
 
 ____________________________
