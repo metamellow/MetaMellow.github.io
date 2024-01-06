@@ -807,6 +807,12 @@
     border-radius: 5px;
     box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
     transition: all 0.2s ease-in-out;
+
+    width: 70%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 80px;
+
 }
 
 .sec6-image:hover {
