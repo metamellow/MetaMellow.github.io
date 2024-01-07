@@ -147,8 +147,9 @@
 }
 
 .paragraph {
-    width: 50%;
+    width: 80%;
     font-size: 18px;
+    text-align:justify;
 }
 
 .section-2-button {
