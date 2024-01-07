@@ -92,7 +92,7 @@ contract Claimer is Ownable {
     }
 
     function updateTax(
-        address _tqxWallet, 
+        address _taxWallet, 
         address _burnWallet, 
         uint256 _taxRate, 
         uint256 _burnRate, 
