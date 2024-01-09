@@ -7,7 +7,7 @@
 
 This project is a **Solidity contract** that I developed for a token exchange system. It demonstrates my skills in Solidity programming and understanding of blockchain concepts.
 
-## Problem Statement
+## Problem
 
 The contract was developed to address the following problems:
 

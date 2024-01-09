@@ -7,7 +7,7 @@
 
 This project is a **Solidity contract** that I developed for a lottery system. It demonstrates my skills in Solidity programming and understanding of blockchain concepts. A unique feature of this contract is its use of a decentralized third-party service to ensure true randomness in the lottery process.
 
-## Problem Statement
+## Problem
 
 The contract was developed to address the following problems:
 
